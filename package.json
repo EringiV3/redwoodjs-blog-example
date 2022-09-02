@@ -7,8 +7,12 @@
       "packages/*"
     ]
   },
+  "scripts": {
+    "format": "prettier --write ."
+  },
   "devDependencies": {
-    "@redwoodjs/core": "2.2.3"
+    "@redwoodjs/core": "2.2.3",
+    "prettier": "^2.7.1"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
